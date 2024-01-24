@@ -6,6 +6,7 @@ function Articulo({ children, articulo }) {
             <p><strong>{articulo.nombre}</strong></p>
             <p>{articulo.descripcion}</p>
             <p>{articulo.precio} €</p>
+            <img src={articulo.imagen}></img>
             {children}
         </div>
     )
